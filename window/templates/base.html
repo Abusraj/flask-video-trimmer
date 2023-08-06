@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=5.0">
+  <title>Video editor</title>
+</head>
+<body>
+  <h2>{{ utc_dt }} الوقت المحلي</h2>
+  <h2>:اختر ملفك</h2>
+  <form  action="http://localhost:5000/video"  method = "POST" 
+  enctype = "multipart/form-data">
+  <input type="file" id="myfile" name="file"/>
+  <br>
+  <br>
+  <input type="submit"/> اضغط هنا
+  </form>
+</body>
+</html>
